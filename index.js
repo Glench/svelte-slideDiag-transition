@@ -1,4 +1,4 @@
-export function slideDiag(node, options={
+export default function slideDiag(node, options={
     delay : 0,
     duration : 400,
     easing : cubicOut
