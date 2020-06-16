@@ -1,6 +1,6 @@
 # svelte-slidediag-transition
 
-A simple transition for [Svelte](https://svelte.dev/). like Svelte's built-in `slide` transition except this one expands horizontally as well as vertically (hence "diag" for "diagonal"):
+A simple transition for [Svelte](https://svelte.dev/). Like Svelte's built-in [`slide` transition](https://svelte.dev/docs#slide) except this one expands horizontally as well as vertically (hence "diag" for "diagonal"):
 
 ![slidediag demo](demo.webp)
 
