@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Glench/svelte-slideDiag-transition/issues"
   },
-  "homepage": "https://github.com/Glench/svelte-slideDiag-transition#readme"
+  "homepage": "https://github.com/Glench/svelte-slideDiag-transition#readme",
+  "dependencies": {
+    "svelte": "^3.23.2"
+  }
 }

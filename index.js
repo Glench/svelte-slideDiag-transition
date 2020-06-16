@@ -1,3 +1,4 @@
+import {cubicOut} from 'svelte/easing'
 export default function slideDiag(node, options={
     delay : 0,
     duration : 400,
@@ -31,10 +32,16 @@ export default function slideDiag(node, options={
             `width: ${t * width}px;` +
             `padding-top: ${t * padding_top}px;` +
             `padding-bottom: ${t * padding_bottom}px;` +
+            `padding-left: ${t * padding_left}px;` +
+            `padding-right: ${t * padding_right}px;` +
             `margin-top: ${t * margin_top}px;` +
             `margin-bottom: ${t * margin_bottom}px;` +
+            `margin-left: ${t * margin_left}px;` +
+            `margin-right: ${t * margin_right}px;` +
             `border-top-width: ${t * border_top_width}px;` +
-            `border-bottom-width: ${t * border_bottom_width}px;`
+            `border-bottom-width: ${t * border_bottom_width}px;` +
+            `border-left-width: ${t * border_left_width}px;` +
+            `border-right-width: ${t * border_right_width}px;`
     };
 }
 
